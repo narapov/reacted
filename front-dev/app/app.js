@@ -20,11 +20,24 @@ class App extends React.Component {
 	render() {
 		return (
 			<div>
-				first custom component
+				<h2>
+					app component				
+				</h2>
+				<News />
 			</div>
 		);
 	}
 };
+
+class News extends React.Component {
+	render() {
+		return (
+			<div>
+				News component
+			</div>
+		);
+	}
+}
 
 ReactDOM.render(
 	<App/>,
