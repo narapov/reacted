@@ -14,3 +14,19 @@ ReactDOM.render(
 	<h1>hello from jsx</h1>,
 	document.getElementById('root-jsx')
 );
+
+
+class App extends React.Component {
+	render() {
+		return (
+			<div>
+				first custom component
+			</div>
+		);
+	}
+};
+
+ReactDOM.render(
+	<App/>,
+	document.getElementById('root-component')
+);
